@@ -1,17 +1,5 @@
 package com.fauxy.dao;
 
-import java.sql.Connection;
-
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-
-import org.apache.catalina.User;
-
-import com.fauxy.database.DataBase;
-import com.fauxy.query.QueryfDatabase;
-
 public class Userdaoimpl implements Userdao {
 
 	    public boolean isValidUser(String username, String password) {
