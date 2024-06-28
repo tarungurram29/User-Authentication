@@ -1,19 +1,3 @@
-package com.fauxy.backend;
-
-import jakarta.servlet.ServletException;
-
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import java.io.IOException;
-
-import org.apache.catalina.User;
-import com.fauxy.backend.*;
-import com.fauxy.dao.Userdao;
-import com.fauxy.dao.Userdaoimpl;
-import com.fauxy.dao.Userr;
-
 @WebServlet("/register")
 public class RegistrationServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
